@@ -17,7 +17,7 @@ const Content = () => {
         }
     }
     return (
-        <div className="h-32 w-full items-center justify-center bg-gray-100 rounded-md shadow-md">
+        <div className="h-32 w-full items-center justify-center bg-gray-100 rounded-md shadow-md my-4">
             <div className="w-96 items-center just mx-auto py-8">
             <form action="" className="flex mx-auto" onSubmit={formSubmit}>
                 <input type="text" ref = {textRef} placeholder="Enter your text here" className=" rounded-lg  appearance-none py-2 px-4 border border-gray-300 text-gray-700 w-full placeholder-gray-400 text-base shadow-sm outline-none"/>
